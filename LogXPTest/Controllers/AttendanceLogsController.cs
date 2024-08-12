@@ -7,10 +7,10 @@ namespace LogXPTest.Controllers
 {
     [Route("api/[controller]")]     //to provide the route of the api
     [ApiController]
-    public class ExpenseItemController
+    public class AttendanceLogsController
     {
         private ApiDbContext _dbContext;
-        public ExpenseItemController(ApiDbContext dbContext)
+        public AttendanceLogsController(ApiDbContext dbContext)
         {
             _dbContext = dbContext;
         }
